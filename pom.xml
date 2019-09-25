@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<!--
+    Apache Maven - фрейворк который позволяет автомотихировать процесс сборки проекта
+
+    На руснке сушесвует 3 популярніх платформы
+    1)Maven(XML)
+    2)Gradle(Groovy)
+    3)Ant+
+
+    Ключевый вопрос который решает автоматизацию сборки проекта, это незавсисмость от ОП системыю
+
+    Maven \ Gradle подерживается почти всеми IDE
+
+    Конфигурация проекта осушсвуется на основе POM.xml(имя файла контрасно)
+    -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Pro</groupId><!--индификатор для группы проектов-->
+
+    <artifactId>Pro</artifactId><!--Уникальный ИД проекта -->
+    <!--pom - автономная сборка -->
+    <packaging>pom</packaging>
+    <version>Beta 0.0.1</version>
+
+
+    </project>

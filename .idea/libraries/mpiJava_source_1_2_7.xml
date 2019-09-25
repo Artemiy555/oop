@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="mpiJava-source-1.2.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/doc/api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/cmakemodules/featuretests" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/examples/Nozzle" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/examples/PingPong" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/examples/metropolis" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/examples/potts" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/examples/simple" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/src/Java" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/ccl" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/ccl_ObjSer" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/comm" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/dtyp" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/dtyp_ObjSer" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/env" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/group" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/pt2pt" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/pt2pt_ObjSer" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/signals" />
+      <root url="jar://$PROJECT_DIR$/../Downloads/mpiJava-source-1.2.7.zip!/mpiJava-source-1.2.7/tests/topo" />
+    </SOURCES>
+  </library>
+</component>
