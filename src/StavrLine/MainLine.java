@@ -13,7 +13,9 @@ public class MainLine {
 
 
         line.finiteAutomata(pat,txt);
+        System.out.println();
         line.boyer(pat,txt);
+        System.out.println();
         line.turbo(pat,txt);
     }
 }
