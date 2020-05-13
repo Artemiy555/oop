@@ -11,11 +11,11 @@ public class Tringle extends Shape {
     }
     public double area(){
         //System.out.println("Super: "+ super.area());
-        System.out.print( "Площадь треугольника: ");
+        //System.out.print();
         return line1*line2*z;
     }
     public double perim(){
-        System.out.print( "Периметр треугольника: ");
+       // System.out.print();
         return (line1+line2)*z;
     }
 }

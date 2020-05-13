@@ -2,7 +2,7 @@ package lessons14;
 
 public class Tack1 {
     public static void main(String[] args) {
-        System.out.println("main start");
+        System.out.println("MainSort start");
         MyTest test = new MyTest();
         test.start();
         try {
@@ -11,7 +11,7 @@ public class Tack1 {
             e.printStackTrace();
         }
 
-        System.out.println("main ended!");
+        System.out.println("MainSort ended!");
     }
 }
 

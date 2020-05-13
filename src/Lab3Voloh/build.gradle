@@ -1,0 +1,8 @@
+package Lab3Voloh
+
+apply plugin: 'java'
+
+sourceCompatibility = '1.9'
+targetCompatibility = '1.9'
+
+jar.manifest.attributes('Main-Class': 'lexer.Main')
