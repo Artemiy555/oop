@@ -43,7 +43,7 @@ public class Turbo {
 
         computeTransFun(pat, M, TF);
 
-        // process text over FA.
+
         int i, j = 0;
         for (i = 0; i < N; i++)
         {
