@@ -3,12 +3,12 @@ package lessons14;
 public class Tack2 {
     public static void main(String[] args) {
         System.out.println(Thread.currentThread().getName());
-        System.out.println("MainSort start");
+        System.out.println("Text start");
         Thread myThread = new Thread(new My());
         Thread my = new Thread(new MyTest());
         myThread.start();
         my.start();
-        System.out.println("MainSort ended!");
+        System.out.println("Text ended!");
     }
 }
 

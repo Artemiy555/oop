@@ -119,10 +119,10 @@ class Main {
             "int  gprintf(int *xloc, int *yloc, char *fmt, ... );\n" +
             "\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
-            "/*\tBegin MainSort function\t\t\t\t\t\t*/\n" +
+            "/*\tBegin Text function\t\t\t\t\t\t*/\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
             "\n" +
-            "int MainSort()\n" +
+            "int Text()\n" +
             "{\n" +
             "\n" +
             "  Initialize(); \t\t/* Set system into Graphics mode\t*/\n" +
@@ -1308,7 +1308,7 @@ class Main {
             "}\n" +
             "\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
-            "/*\tMAINWINDOW: Establish the MainSort window for the demo and set\t*/\n" +
+            "/*\tMAINWINDOW: Establish the Text window for the demo and set\t*/\n" +
             "/*\ta viewport for the demo code.\t\t\t\t\t*/\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
             "\n" +
