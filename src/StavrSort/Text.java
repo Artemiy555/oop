@@ -1,6 +1,6 @@
 package StavrSort;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 import static org.apache.commons.math3.util.ArithmeticUtils.pow;
 
@@ -37,65 +37,76 @@ public class Text {
         }
 
         SortingClass sortingClass = new SortingClass();
+        MergeSortList merger = new MergeSortList();
 
-        System.out.println("stable-sort");
+        ArrayList<Integer> thiTList = new ArrayList<Integer>();
+        for (int i = 0; i < 30_000; i++) {
+            thiTList.add(i);
+        }
 
+        ArrayList<Integer> tenTTList = new ArrayList<Integer>();
+        for (int i = 0; i < 100_000; i++) {
+            tenTTList.add(i);
+        }
 
-
-        System.out.println("Radix sort Java implementation");
-
-
-        System.out.println("LSD radix sort");
-
-
-
-        System.out.println("Multi-pivot Quicksort by Yaroslavskiy");
-
-
-        System.out.println("IntroSort");
+        ArrayList<Integer> thiTTList = new ArrayList<Integer>();
+        for (int i = 0; i < 300_000; i++) {
+            thiTTList.add(i);
+        }
+        ArrayList<Integer> oneMList = new ArrayList<Integer>();
+        for (int i = 0; i < 1_000_000; i++) {
+            oneMList.add(i);
+        }
+        System.out.println("Classic MargeSort");
         start = System.currentTimeMillis();
-        sortingClass.introSort(thiT);
+        sortingClass.mergeSort(thiT);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("///////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
-
-        start = System.currentTimeMillis();
-        sortingClass.introSort(tenTT);
-        finish = System.currentTimeMillis();
-        timeConsumedMillis = finish - start;
-        System.out.println("////////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
-
-        start = System.currentTimeMillis();
-        sortingClass.introSort(thiTT);
-        finish = System.currentTimeMillis();
-        timeConsumedMillis = finish - start;
-        System.out.println("////////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
+        System.out.println("30тс: "+timeConsumedMillis);
 
         start = System.currentTimeMillis();
-        sortingClass.introSort(oneM);
+        sortingClass.mergeSort(tenTT);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("//////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
+        System.out.println("100тс: "+timeConsumedMillis);
 
-        System.out.println("Arrays.sort ()");
         start = System.currentTimeMillis();
-        Arrays.sort(thiT);
+        sortingClass.mergeSort(thiTT);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("///////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
+        System.out.println("300тс: "+timeConsumedMillis);
+
         start = System.currentTimeMillis();
-        Arrays.sort(tenTT);
+        sortingClass.mergeSort(oneM);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("///////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
-        Arrays.sort(thiTT);
+        System.out.println("1м: "+timeConsumedMillis);
+
+        System.out.println("MargeSortList");
+        start = System.currentTimeMillis();
+        merger.merge_sort(thiTList);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
-        Arrays.sort(oneM);
+        System.out.println("30тс: "+timeConsumedMillis);
+
+        start = System.currentTimeMillis();
+        merger.merge_sort(tenTTList);
         finish = System.currentTimeMillis();
         timeConsumedMillis = finish - start;
-        System.out.println("//////////////////////////////////////////////////////////////////////\n"+timeConsumedMillis);
+        System.out.println("100тс: "+timeConsumedMillis);
+
+        start = System.currentTimeMillis();
+        merger.merge_sort(thiTTList);
+        finish = System.currentTimeMillis();
+        timeConsumedMillis = finish - start;
+        System.out.println("300тс: "+timeConsumedMillis);
+
+        start = System.currentTimeMillis();
+        merger.merge_sort(oneMList);
+        finish = System.currentTimeMillis();
+        timeConsumedMillis = finish - start;
+        System.out.println("1м: "+timeConsumedMillis);
+
 
 
     }

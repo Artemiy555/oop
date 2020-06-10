@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="omp4j-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Downloads/omp4j-1.2.jar!/" />
+      <root url="jar://C:/mpj/lib/mpj.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

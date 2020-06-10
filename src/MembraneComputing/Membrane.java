@@ -55,7 +55,7 @@ public class Membrane {
         }
         System.out.println("В пространстве "+numProst+ " обьеков");
 
-        int arr[][]= new int[5][3];
+        int arr[][]= new int[3][1];
         System.out.println(arr.length/2);
         System.out.println(arr.length);
         System.out.println(arr[0].length);
@@ -95,11 +95,7 @@ public class Membrane {
                     root.getColumnConstraints().add(new ColumnConstraints(80));
 
                     Label label = new Label("     "+l + "       ");
-//                    label.setTextFill(Color.web("#0076a3"));
-//                    label.setStyle("-fx-background-color: lightblue; -fx-border-color: black; -fx-height: 50px");
 
-//                    root.add(new Label ("       "), 0,0);
-//                    root.add(new Label ("       "), 1,0);
                     StackPane stackPane = new StackPane();
                     stackPane.setStyle("-fx-background-color: red;");
                     root.add(stackPane, 0,0);
