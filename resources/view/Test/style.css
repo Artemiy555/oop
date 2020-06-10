@@ -1,0 +1,20 @@
+.root {
+    -fx-padding: 20 ;
+    cell-color: white ;
+    cell-border-color: black ;
+}
+.grid {
+
+    /*-fx-grid-lines-visible:true ;*/
+    -fx-background-color: #eca72e ;
+    -fx-background-insets: 0, 1 1 0 0 ;
+    -fx-padding: 10px;
+    -fx-text-align: center;
+    border-collapse: collapse;
+    -fx-stroke   : red;
+}
+.cell {
+
+    -fx-background-color: cell-border-color, cell-color ;
+    -fx-background-insets: 0, 0 0 1 1 ;
+}
