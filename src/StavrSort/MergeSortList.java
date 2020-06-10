@@ -14,6 +14,7 @@ public class MergeSortList {
         MergeSortList merger = new MergeSortList();
         List<String> results = merger.merge_sort(number);
         System.out.println(results);
+
     }
 
     public <T> List<T> merge_sort(List<T> numbers) {
