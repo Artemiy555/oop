@@ -85,7 +85,7 @@ class Main {
             "struct palettetype palette;\t\t/* Used to read palette info\t*/\n" +
             "\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
-            "/*\tFunction prototypes\t\t\t\t\t\t*/\n" +
+            "/*\tФункции prototypes\t\t\t\t\t\t*/\n" +
             "/*\t\t\t\t\t\t\t\t\t*/\n" +
             "\n" +
             "void Initialize(void);\n" +

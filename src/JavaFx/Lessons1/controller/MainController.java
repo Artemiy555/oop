@@ -32,7 +32,7 @@ try {
     String login = fildLogin.getText();
     String pass = fildPassword.getText();
 
-    nFile = new FileWriter("C:/Users/Artemiy/oop/src/JavaFx/Lessons1/text1.txt",true);
+    nFile = new FileWriter("C:/Users/Artemiy/oop/src/JavaFx/Operator/text1.txt",true);
 
     nFile.write("Логин:"  + login + "\nПароль: " + pass+"\n");
 
